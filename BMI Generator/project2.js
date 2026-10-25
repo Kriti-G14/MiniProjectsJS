@@ -13,7 +13,7 @@ form.addEventListener("submit", (e) => {
     results.innerHTML = `Please enter a valid weight ${weight}`; 
   } else {
     const bmi = (weight / ((height * height) / 10000)).toFixed(2);
-    results.innerHTML = `Your BMI is ${bmi}`;
+    results.innerHTML = `Your BMI is ${bmi} <br> You are ${bmi < 18.5 ? 'underweight' : bmi < 25 ? 'normal weight' : bmi < 30 ? 'overweight' : 'obese'}`;
   }
 
 });
