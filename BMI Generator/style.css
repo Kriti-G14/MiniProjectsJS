@@ -1,44 +1,48 @@
 .container {
-  width: 575px;
-  height: 825px;
-  background-color: #7053d9;
-  padding-left: 30px;
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+
+    background-color: #7053d9;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 #height,
 #weight {
   width: 150px;
   height: 25px;
-  margin-top: 30px;
-}
-
-#weight-guide {
-  margin-left: 75px;
-  margin-top: 25px;
-}
-
-#results {
-  font-size: 35px;
-  margin-left: 90px;
   margin-top: 20px;
-  color: rgb(241, 241, 241);
 }
 
-button {
-  width: 150px;
-  height: 35px;
-  margin-left: 90px;
-  margin-top: 25px;
-  background-color: #fff;
-  padding: 1px 30px;
-  border-radius: 8px;
-  color: #212121;
-  text-decoration: none;
-  border: 2px solid #212121;
-  font-size: 25px;
-}
 
 h1 {
   padding-left: 15px;
   padding-top: 25px;
+}
+
+#weight-guide {
+    margin-top: 25px;
+}
+
+#results {
+    font-size: 35px;
+    margin-top: 20px;
+    color: rgb(35, 29, 29);
+}
+
+button {
+    width: 190px;
+    min-height: 45px;
+    margin-top: 25px;
+    background-color: #efedf3;
+    border-radius: 8px;
+    color: #212121;
+    border: 2px solid #212121;
+    font-size: 25px;
+    cursor: pointer;
 }
