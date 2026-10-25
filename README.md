@@ -172,7 +172,7 @@ Open the desired project's HTML file and launch it using Live Server, or open th
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 The repository is organized into separate project folders to keep the code modular and easy to navigate.
 
@@ -243,4 +243,4 @@ If you find this repository useful, feel free to explore the code, share suggest
 
 ---
 
-*Built with curiosity, consistency, and a commitment to continuous learning.* 💻
+*Built with curiosity, consistency, and a commitment to continuous learning.* 
